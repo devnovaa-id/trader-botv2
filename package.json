@@ -1,0 +1,31 @@
+{
+  "name": "trader-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "binance-api-node": "^0.12.9",
+    "chart.js": "^4.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "net": "^1.0.2",
+    "next": "15.4.4",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "react-ts-tradingview-widgets": "^1.2.8",
+    "recharts": "^3.1.0",
+    "technicalindicators": "^3.1.0",
+    "tls": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
