@@ -16,7 +16,9 @@ import {
   Title,
   Tooltip,
   Legend,
-  Filler
+  Filler,
+  BarController,
+  LineController
 } from 'chart.js';
 import dynamic from 'next/dynamic';
 import { 
@@ -43,7 +45,9 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
-  Filler
+  Filler,
+  BarController,
+  LineController
 );
 
 // Library untuk indikator teknikal
